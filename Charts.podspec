@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.authors = "Daniel Cohen Gindi", "Philipp Jahoda"
   s.ios.deployment_target = "11.0"
-  s.source = { :git => "https://github.com/Objectway/Charts.git", :tag => "v#{s.version}" }
+  s.source = { :git => "https://github.com/Objectway/Charts.git", :tag => "#{s.version}" }
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|

@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06165F2D1D8110E600722320"
-               BuildableName = "ChartsTests.xctest"
-               BlueprintName = "ChartsTests"
-               ReferencedContainer = "container:Charts.xcodeproj">
+               BlueprintIdentifier = "06165F231D8110E600722320"
+               BuildableName = "AyoYesCharts.framework"
+               BlueprintName = "AyoYesCharts"
+               ReferencedContainer = "container:AyoYesCharts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,20 +28,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "06165F231D8110E600722320"
+            BuildableName = "AyoYesCharts.framework"
+            BlueprintName = "AyoYesCharts"
+            ReferencedContainer = "container:AyoYesCharts.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06165F2D1D8110E600722320"
-               BuildableName = "ChartsTests.xctest"
-               BlueprintName = "ChartsTests"
-               ReferencedContainer = "container:Charts.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -56,21 +53,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06165F2D1D8110E600722320"
-            BuildableName = "ChartsTests.xctest"
-            BlueprintName = "ChartsTests"
-            ReferencedContainer = "container:Charts.xcodeproj">
+            BlueprintIdentifier = "06165F231D8110E600722320"
+            BuildableName = "AyoYesCharts.framework"
+            BlueprintName = "AyoYesCharts"
+            ReferencedContainer = "container:AyoYesCharts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "FB_REFERENCE_IMAGE_DIR"
-            value = "$(SOURCE_ROOT)/Tests/ReferenceImages"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -81,10 +69,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06165F2D1D8110E600722320"
-            BuildableName = "ChartsTests.xctest"
-            BlueprintName = "ChartsTests"
-            ReferencedContainer = "container:Charts.xcodeproj">
+            BlueprintIdentifier = "06165F231D8110E600722320"
+            BuildableName = "AyoYesCharts.framework"
+            BlueprintName = "AyoYesCharts"
+            ReferencedContainer = "container:AyoYesCharts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
