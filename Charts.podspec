@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
     ss.source_files  = "Source/ChartsRealm/**/*.swift"
     ss.dependency "Charts/Core"
     ss.dependency "RealmSwift", "~> 2.8.1"
+    ss.ios.deployment_target  = '9.0'
   end
 end
